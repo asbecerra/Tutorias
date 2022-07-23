@@ -1,5 +1,7 @@
 package com.asbt;
 
+import java.util.Scanner;
+
 public class Square {
     int length;
     public Square (int length){
