@@ -15,5 +15,4 @@ public class Rectangle {
     public int area(){
         return width * length;
     }
-
 }

@@ -29,5 +29,12 @@ public class Main {
        Rectangle rectangle = new Rectangle(rectangleLength, rectangleWidth);
        Triangle triangle = new Triangle(triangleHeight, triangleBase, triangleL1, triangleL2);
 
+       System.out.printf("The square perimeter is: %d\n", square.perimeter());
+       System.out.printf("The square area is: %d\n" , square.area());
+       System.out.printf("The rectangle perimeter is: %d\n" , rectangle.perimeter());
+       System.out.printf("The rectangle area is: %d\n", rectangle.area());
+       System.out.printf("The triangle perimeter is: %d\n", triangle.perimeter());
+       System.out.printf("The triangle area is: %d\n", triangle.area());
+
     }
 }

@@ -9,11 +9,11 @@ public class Triangle {
     public Triangle(int height, int base , int l1, int l2) {
         this.height = height;
         this.base = base;
-        this.l1 = l2;
-        this.l1 = l2;
+        this.l1 = l1;
+        this.l2 = l2;
 
     }
-    //Perimeter i triangle
+    //Perimeter  triangle
     public int perimeter(){
         return (l1 + l2 + base) ;
     }
